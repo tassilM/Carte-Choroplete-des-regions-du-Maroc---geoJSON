@@ -81,15 +81,8 @@
  // Contrôle de couches (switch)
   L.control.layers(baseMaps, overlays, { collapsed: false, position: 'topleft',collapsed: true }).addTo(map);
 
- // (optionnel) démarrer directement en satellite + labels :
- // esriSat.addTo(map);
- // esriLabels.addTo(map);
-
 // (optionnel) bouton d’échelle
   L.control.scale({ metric: true, imperial: false }).addTo(map);
-
-// (optionnel) si tu as le plugin leaflet-control-boxzoom chargé :
-// map.addControl(L.control.boxzoom({ position: 'topleft' }));
 
 
 
@@ -304,3 +297,4 @@
 
 </body>
 </html>
+
